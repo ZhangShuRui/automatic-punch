@@ -1,0 +1,17 @@
+{
+  "name": "headless-browser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-schedule": "^2.1.0",
+    "pm2": "^5.1.2",
+    "puppeteer": "^13.0.0",
+    "ts-node": "^10.4.0"
+  },
+  "scripts": {
+    "serve": "npx tsc && node ./dist/main.js"
+  }
+}
